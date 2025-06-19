@@ -1,0 +1,113 @@
+<!doctype html>
+<html>
+<head>
+<link rel="stylesheet"href="style.css">
+</head>
+<head>
+<title>Travel Blog by Vicky</title>
+</head>
+<body>
+<header><h1>Booking Form</h1></header> 
+<nav><ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="destinations.html">Destinations</a></li>
+<li><a href="tips.html">Tips</a></li>
+<li><a href="gallery.html">Gallery</a></li>
+<li><a class="active" href="booking.html">Booking</a></li>
+<li><a href="about.html">About Me</a></li>
+</ul></nav>
+<style>
+form#myform{
+background:#f5f5f5;
+border-radius:1px;
+padding:20px;
+width:400px;
+}
+form#myform fieldset{
+background:#e8e8e8;
+border-color:#d0d0d0;
+border-style:solid;
+border-width:2px;
+border-radius:5px;
+border-bottom:15px;
+}
+form#myform legend{
+color:#555555;
+font-size:18px;
+font-weight:bold;
+padding-bottom:5px;
+text-shadow:0 1px 1px #ffffff;
+}
+form#myform textarea{
+border:1px solid #;
+}
+form#myform input[type=submit]{
+background:#555555;
+border:none;
+border-radius:20px;
+font:18px Georgia,"Time New Roman",Times,serif;
+color:#ffffff;
+padding:10px 25px;
+text-transform:uppercase;
+display:block;
+margin:0 auto;
+}
+form#myform input[type=text]
+form#myform input[type=email]
+form#myform input[type=tel]
+form#myform input[type=date]
+form#myform input[type=number]
+form#myform input[type=password]
+form#myform select{
+width:350px;
+padding:5px;
+margin-bottom:10px;
+border:1px solid #d0d0d0;
+background:#ffffff;#d0d0d0;
+}
+form#myform input[type=radio],
+form#myform input[type=checkbox]{
+margin-right:5px;
+}
+</style>
+</head>
+<body>
+<form id="myform">
+<fieldset>
+<legend>Step 1:Tourist Information</legend>
+Full Name:<br><input type="text"name="f"><br>
+Email:<br><input name="email"type="email"placeholder="example@domain.com"required><br>
+Phone:<br><input type="tel" name="phone"placeholder="+86" required><br>
+Nationality:<br><input type="text" name=="n"><br>
+</fieldset><br>
+
+<fieldset>
+<legend>Step 2:Tour Details</legend>
+Tour Date:<br><input name="dob"type="date"><br>
+Group Size:<br><input type="text"name="g"><br>
+Tour Duration:<br><select name="Selectnduration">
+<option value="1 hour">1 Hour</option>
+<option value="3 hours">3 Hours</option>
+<option value="half day">Half Day</option>
+<option value="full day">Full Day</option>
+</select><br>
+Preferred Language:<input type="radio" name="preferred language" value="mandarin">Mandarin
+<input type="radio" name="preferred language" value="english">English<br>
+</fieldset><br>
+<fieldset>
+<legend>Step 3:Places to Visit</legend>
+Select attractions:<br>
+<input type="checkbox" name="vehicle" value="Sanfang Qixiang">Sanfang Qixiang<br>
+<input type="checkbox" name="vehicle" value="Jinshan Temole">Jinshan Temole<br>
+<input type="checkbox" name="vehicle" value="West Lake Park">West Lake Park<br>
+<input type="checkbox" name="vehicle" value="Pingtan Island">Pingtan Island<br>
+</input>
+Special Requests:<br><textarea name="address" cols=30 rows=8 required></textarea><br>
+</fieldset>
+<br><center><input type="Submit"value="BOOK TOUR"></center>
+</form>
+<footer>
+<center><p>&copy;2025Vicky's Blog</p></center>
+</footer>
+</body>
+</html>
